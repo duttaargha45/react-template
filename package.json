@@ -1,0 +1,9 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "A minimal react starter template",
+  "main": "index.js",
+  "author": "Soumak",
+  "license": "MIT",
+  "private": false
+}
