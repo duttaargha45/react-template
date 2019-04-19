@@ -14,11 +14,15 @@ module.exports = {
 		hot: true
 	},
 	module: {
-		rules: [
+		rules: [  
 			{
 				test: /\.js$/,
 				use: 'babel-loader'
-			}
+			},
+			{
+				test: /\.sass$/,
+				use: ['style-loader', 'css-loader', 'sass-loader']
+			}  
 		]
 	},
 	plugins: [
